@@ -45,16 +45,16 @@ Content, padding, border, margin
 Items are centered in the cross-axis
 
 5. Explain why git is valuable to a team of developers.
-Git is a distributed version control system. Version control is very important because it allows monitoring and controlling code changes made during development across several people or teams. For example, if there is a bug in the current code, git allows a user to go back to previous versions (commits) and potentially see what caused the issue later on. Git also allows people to work on their local machines and then transfer their work to the global (main/master branch) for everyone to review at and potentially use.
+Git is a distributed version control system. Version control is very important because it allows monitoring and controlling code changes made during development across several people or teams. For example, if there is a bug in the current code, git allows a user to go back to previous versions (commits) and potentially see what caused the issue later on. Git also allows people to work on their local machines and then transfer their work to the global repository (main/master branch) for everyone to review at and potentially use.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
@@ -76,16 +76,16 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box (Note: inline styles are not acceptable. All styles should be written in your index.css file):
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [x] box1: `teal`
+* [x] box2: `gold`
+* [x] box3: `cadetblue`
+* [x] box4: `coral`
+* [x] box5: `crimson`
+* [x] box6: `forestgreen`
+* [x] box7: `darkorchid`
+* [x] box8: `hotpink`
+* [x] box9: `indigo`
+* [x] box10: `dodgerblue`
 
 ### About Page
 
