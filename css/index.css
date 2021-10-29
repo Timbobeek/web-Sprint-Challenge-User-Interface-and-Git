@@ -310,3 +310,56 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/* --------------Page 2 styling----------- */
+
+.about1{
+    margin-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.aboutcontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+/* -------big picture section-------- */
+
+.pictures4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pictures4 .container1{
+    width: 40%;
+    padding: 1em;
+}
+
+.pictures4 .container1 .picture{
+    display: flex;
+}
+
+.pictures4 .container1 .text{
+    display: flex;
+}
+
+.pictures4 .container1 .button{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
