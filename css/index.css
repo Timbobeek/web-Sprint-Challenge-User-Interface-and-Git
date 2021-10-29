@@ -29,118 +29,262 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  line-height: 1;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: "Rubik", sans-serif;
 }
 
 p {
-    line-height: 1.4;
+  line-height: 1.4;
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+  width: 800px;
+  margin: 0 auto;
 }
 
+/* ----------------Header styles------------- */
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.navigation h1 {
+  margin-left: 4%;
+  padding-top: 2%;
+  border: 0;
+}
+
+.navi {
+  width: 100%;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav {
+  width: 90%;
+  font-size: 14px;
+  display: flex;
+}
+
+nav a {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  width: 10%;
+  margin-right: 15%;
+  display: flex;
+}
+
+/* ----------------Roadpicture styles------------- */
+
+.roadPicture {
+  margin-bottom: 3%;
+}
+
+/* ----------------Top Section styles------------- */
+
 .top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;
     padding-bottom: 20px;  
+  padding-bottom: 20px;
+    padding-bottom: 20px;  
+  padding-bottom: 20px;
 }
 
+/* ----------------Boxes section styles------------- */
+
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+  margin-bottom: 1em;
+  border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+  padding: 0 2%;
+  margin-bottom: 0;
 }
 
 .middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
+
+/* need to put all characteristic but background color into a single class - REFACTOR */
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 12.5%;
+  height: 100px;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+  background: teal;
+}
+
+.middle-content .boxes .box2 {
+  background: gold;
+}
+
+.middle-content .boxes .box3 {
+  background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+  background: coral;
+}
+
+.middle-content .boxes .box5 {
+  background: crimson;
+}
+
+.middle-content .boxes .box6 {
+  background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+  background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+  background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+  background: indigo;
+}
+
+.middle-content .boxes .box10 {
+  background: dodgerblue;
+}
+
+/* ----------------Thats no moon section------------- */
+
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+  display: flex;
+  margin: 0 2% 20px;
+  justify-content: space-around;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+  padding-right: 4%;
 }
 
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 
+/* ----------------Footer styles------------- */
+
 footer {
-    width: 100%;
-    background: black;
+  width: 100%;
+  background: black;
+  margin-top: 1em;
 }
 
 footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
 }
 
 footer nav a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
+}
+
+/* --------------Page 2 styling----------- */
+
+.about1 {
+  margin-bottom: 1em;
+  border-bottom: 1px dashed black;
+}
+
+.aboutcontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+
+/* -------big picture section-------- */
+
+.pictures4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pictures4 .container1 {
+  width: 50%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.pictures4 .container1 .title {
+  padding-top: 0.5em;
+}
+
+.pictures4 .container1 .button button {
+  font-size: medium;
+  margin-top: 1em;
+  padding: 0.5em;
+  width: 8em;
+  background-color: transparent;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+}
+
+.pictures4 .container1 .button button:hover {
+  background-color: black;
+  color: white;
+}
+
+.pictures4 .container1 .button {
+  border-bottom: 1px dashed black;
 }
